@@ -179,6 +179,12 @@ p {
 .navBar .spacew-logo h1 {
   font-size: 4rem;
   text-align: center;
+  color: #22283a;
+}
+@media (max-width 500px) {
+  .navBar .spacew-logo {
+    width: 40rem;
+  }
 }
 .navBar .navLinks {
   display: flex;
@@ -191,16 +197,20 @@ p {
 }
 @media (max-width 500px) {
   .navBar .navLinks {
-    width: 100%;
+    width: 40rem;
   }
 }
 .navBar .navLinks a {
   text-decoration: none;
-  color: black;
+  color: #22283a;
   font-size: 1.6rem;
 }
 .navBar .navLinks a:visited {
-  color: black;
+  color: #22283a;
+}
+.home .intro .moon-img {
+  padding-bottom: 15px;
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -243,6 +253,17 @@ p {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  border: 1px #22283a solid;
+  background-color: #22283a;
+  padding: 10px;
+  color: white;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 .home .walk .walk-img {
   width: 46%;

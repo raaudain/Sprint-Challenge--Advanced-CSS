@@ -16,6 +16,10 @@
         h1{
             font-size: 4rem;
             text-align: center;
+            color: @title-color;
+        }
+        @media @phone{
+            width: 40rem;
         }
     }
     .navLinks{
@@ -27,16 +31,17 @@
         width: 80rem;
         border: 1px red solid;
         @media @phone{
-            width: 100%;
+            width: 40rem;
+            
         }
 
         a{
             text-decoration: none;
-            color: black;
+            color: @title-color;
             font-size: 1.6rem;
         }
         a:visited{
-            color: black;
+            color: @title-color;
         }
     }
 }
