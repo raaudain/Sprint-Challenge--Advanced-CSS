@@ -163,6 +163,10 @@ p {
 .navBar {
   width: 100%;
   margin: auto;
+  z-index: 9999;
+  top: 0;
+  position: sticky;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 @media (max-width: 500px) {
   .navBar {

@@ -7,7 +7,7 @@
     .moon-img{
       margin-bottom: 2%;
       border-radius: 5px;
-      width: 100%;
+      .phone();
     }
 
     h2 {
@@ -27,10 +27,10 @@
     
     @media @phone{
       .sky,.launch{
-        display: none;
+        .hide();
       }
       .blast{
-        width: 100%;
+        .phone();
       }
     }
 
@@ -68,7 +68,7 @@
     .walk-text {
       width: 50%;
       @media @phone{
-        width: 100%;
+        .phone();
         padding-top: 20px;
       }
       h3 {
@@ -80,15 +80,15 @@
       }
 
       .btn {
-        .btn-style();
+        .btn-style(@width: 40%, @color: white);
         @media @phone{
-          .btn-style(@width: 100%);
+          .btn-style(@width: 100%, @color: white);
         }
       }
       .btn:hover{
-        .btn-style-hover();
+        .btn-style-hover(@width: 40%, @bg-color: white);
         @media @phone{
-          .btn-style-hover(@width: 100%);
+          .btn-style-hover(@width: 100%, @bg-color:white);
         }
       }
     }
