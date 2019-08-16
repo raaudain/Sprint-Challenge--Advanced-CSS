@@ -5,7 +5,7 @@
   .intro {
 
     .moon-img{
-      padding-bottom: 15px;
+      margin-bottom: 2%;
       border-radius: 5px;
       width: 100%;
     }
@@ -62,7 +62,7 @@
     justify-content: center;
     @media @phone{
       flex-direction: column-reverse;
-      padding: 50px 20px;
+      padding: 20px 20px;
     }
 
     .walk-text {
@@ -82,7 +82,13 @@
       .btn {
         .btn-style();
         @media @phone{
-          width: 100%;
+          .btn-style(@width: 100%);
+        }
+      }
+      .btn:hover{
+        .btn-style-hover();
+        @media @phone{
+          .btn-style-hover(@width: 100%);
         }
       }
     }

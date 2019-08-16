@@ -216,7 +216,7 @@ p {
   color: #22283a;
 }
 .home .intro .moon-img {
-  padding-bottom: 15px;
+  margin-bottom: 2%;
   border-radius: 5px;
   width: 100%;
 }
@@ -265,7 +265,7 @@ p {
 @media (max-width: 500px) {
   .home .walk {
     flex-direction: column-reverse;
-    padding: 50px 20px;
+    padding: 20px 20px;
   }
 }
 .home .walk .walk-text {
@@ -296,7 +296,39 @@ p {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
+    border: 1px #22283a solid;
+    background-color: #22283a;
+    padding: 10px;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 10px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.home .walk .walk-text .btn:hover {
+  border: 1px #22283a solid;
+  background-color: white;
+  padding: 10px;
+  color: #22283a;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn:hover {
+    border: 1px #22283a solid;
+    background-color: white;
+    padding: 10px;
+    color: #22283a;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 .home .walk .walk-img {
